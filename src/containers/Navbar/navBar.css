@@ -1,0 +1,30 @@
+.navBar {
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navBar section {
+    position: fixed;
+    background-color: #00000066;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+    display: flex;
+    width: 80%;
+    padding: 1rem;
+    border-radius: 8px;
+    justify-content: space-evenly;
+}
+
+.navBar section p {
+    text-decoration: none;
+    cursor: pointer;
+    user-select: none;
+    color: #c2c2c2;
+}
+
+.navBar section p:hover {
+    color: #f8f8f8;
+    user-select: none;
+}

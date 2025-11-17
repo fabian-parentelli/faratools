@@ -1,0 +1,21 @@
+.headers {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.headers div {
+    padding-top: 0.6rem;
+}
+
+.headers div h1 { 
+    font-size: 1rem;
+}
+
+.headers div h2 {
+    font-size: .6rem;
+}
+
+.headers img {
+    max-width: 50px;
+    object-fit: contain;
+}

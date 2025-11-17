@@ -1,0 +1,13 @@
+.reacts {
+    display: flex;
+    padding: 0 2rem;
+    gap: 2rem;
+}
+
+@media (max-width: 767px) {
+
+    .reacts {
+        padding: 80px 0;
+    }
+       
+}

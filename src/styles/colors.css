@@ -1,0 +1,32 @@
+:root {
+  --cola: #0054A6;
+  --colb: #F0F4F7;
+  --colc: #B3E0FF;
+  --cold: #333333;
+  --cole: #FFD700;
+
+  --colf: #0D1B2A;
+  --colg: #1B263B;
+  --colh: #415A77;
+  --coli: #778DA9;
+  --colj: #EAEBEF;
+
+  --cdPi: violet;
+  --cdpo: #ffa500;
+}
+
+.cdpi {
+  color: var(--cdPi);
+}
+
+.cdpy {
+  color: var(--cole);
+}
+
+.cdpb {
+  color: var(--colc);
+}
+
+.cdpo {
+  color: var(--cdpo);
+}
