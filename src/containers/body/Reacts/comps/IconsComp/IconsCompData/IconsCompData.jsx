@@ -21,7 +21,14 @@ const IconsCompData = ({ values, setValues }) => {
                     onChange={handleChange}
                 />px"
             </span></p>
-            <p>  onClick=<span className='cdpo'></span><span className='cdpy'>{'{'}</span><span className='cdpi'>()</span><span className='cdpi'>{'=>'}</span> <span className='cdpb'>console.</span><span className='cdpi'>log</span><span className='cdpo'>{'("Hace click")'}</span><span className='cdpy'>{'}'}</span> </p>
+            <p>  onClick=<span className='cdpo'></span><span className='cdpy'>{'{'}</span><span className='cdpi'>()</span><span className='cdpi'>{'=>'}</span> <span className='cdpi'>alert</span><span className='cdpo'>{'("Hace click")'}</span><span className='cdpy'>{'}'}</span> </p>
+
+            <p>  backCol=<span className='cdpo'>
+                "<input
+                    type="text" name='backCol' value={values.backCol || 'none'} size={values.backCol.length - 1 || 1}
+                    onChange={handleChange}
+                />"
+            </span></p>
 
             <p>  bold=<span className='cdpo'></span><span className='cdpy'>{'{'}</span><span className='cdpb'><input
                 type="text" name='bold' value={values.bold} size={1}
@@ -35,7 +42,7 @@ const IconsCompData = ({ values, setValues }) => {
                 />"
             </span></p>
 
-            <p onClick={()=> setValues({...values, hover: !values.hover})}>  hover=<span className='cdpo'></span><span className='cdpy'>
+            <p onClick={() => setValues({ ...values, hover: !values.hover })}>  hover=<span className='cdpo'></span><span className='cdpy'>
                 "{values.hover ? 'true' : 'false'}"</span></p>
             <p>{'/>'}</p>
         </code>

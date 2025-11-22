@@ -1,7 +1,8 @@
 import './icosnCopm.css';
 import { useState } from 'react';
 import { Icons } from 'fara-comp-react';
-import IconsCompData from './IconsCompData/IconsCompData';
+import { dataUtils } from '../../../../../data.utils.js';
+import IconsCompData from './IconsCompData/IconsCompData.jsx';
 
 const IcosnCopm = () => {
 
@@ -10,6 +11,7 @@ const IcosnCopm = () => {
         color: 'white',
         size: 50,
         onClick: `Este es el onClik del ícono`,
+        backCol: 'none',
         bold: 2,
         type: 'app',
         hover: true
@@ -25,7 +27,7 @@ const IcosnCopm = () => {
         <div className="icosnCopm flex-col">
             <div>
                 <h2>Iconos</h2>
-                <p className='pgray'>Version 0.0.6</p>
+                <p className='pgray'>{dataUtils.version}</p>
             </div>
 
             <code className='icosnCopmTop' onClick={handleCopy}>
@@ -43,10 +45,12 @@ const IcosnCopm = () => {
                     color={values.color}
                     size={`${values.size}px`}
                     onClick={() => alert(values.onClick)}
+                    backCol={values.backCol}
                     bold={values.bold}
                     type={values.type}
                     hover={values.hover}
                 />
+
             </section>
 
             <section className='iconsToolsTools'>
