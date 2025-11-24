@@ -5,6 +5,7 @@
     align-items: center;
     gap: 8px;
     width: 350px;
+    border-radius: 8px;
 }
 
 .icosnCopm .icosnCopmItems {

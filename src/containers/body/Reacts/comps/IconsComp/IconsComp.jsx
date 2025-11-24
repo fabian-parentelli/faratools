@@ -67,13 +67,15 @@ const IcosnCopm = () => {
 
 export default IcosnCopm;
 
-const icons = [
-    "facebook", "x", "instagram", "youtube", "github", "user", "info", "app", "error", "warning", "success", "dashboard",
-    "star", "message", "bell", "run", "door", "ticket", "shirt", "computer", "clipboard", "report", "userCircle", "image",
-    "delete", "square", "padlock", "carrot", "copy", "calendar", "map", "credit", "publicity", "cart", "down", "tickets",
-    "pdf", "notimage", "notcredit", "event", "video", "arrows", "qr", "scan", "print", "setting", "activity", "menu",
-    "bookUser", "book", "css", "html", "js", "node", "react", "mongo", "npm", "spotify", "whatsapp", "store",
-    "camera", "cash", "chart", "check", "clock", "cloud", "database", "analytic", "direction", "sendfile", "house", "id",
-    "lock", "email", "bike", "clip", "phone", "like", "truck", "search", "icon", "arrowright", "arrowleft", "eye", "eyeclosed",
-    "browserplus", "browserdel", "cashregister", "dothor", "dotver"
+const icons = ["facebook", "x", "instagram", "youtube", "github", "user", "info", "app", "error", "warning",
+    "success", "dashboard", "star", "message", "bell", "run", "door", "ticket", "shirt", "computer", "clipboard",
+    "report", "userCircle", "image", "delete", "square", "padlock", "carrot", "copy", "calendar", "map", "credit",
+    "publicity", "cart", "down", "tickets", "pdf", "notimage", "notcredit", "event", "video", "arrows", "qr",
+    "scan", "print", "setting", "activity", "menu", "bookUser", "book", "css", "html", "js", "node", "react",
+    "mongo", "npm", "spotify", "whatsapp", "store", "camera", "cash", "chart", "check", "clock", "cloud", "database",
+    "analytic", "direction", "sendfile", "house", "id", "lock", "email", "bike", "clip", "phone", "like", "truck",
+    "search", "icon", "arrowright", "arrowleft", "notuser", "notmap", "browser", "question", "boxPack", "bank",
+    "return", "onoff", "radio", "play", "pause", "playback", "playnext", "volume", "volumenot", "playlist", "eye",
+    "eyeclosed", "browserplus", "browserdel", "cashregister", "dothor", "dotver", "pencil", "signature",
+    "certificate", "chevron", "replace", "folder", "paint", "bag", "bottle", "coffee", "glass"
 ];

@@ -1,0 +1,16 @@
+.accordionComp .icosnCopmTop {
+    background-color: var(--colf);
+    padding: .7rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 400px;
+}
+
+.accordionComp .accordionCompSect {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    width: 600px;
+    width: 100%;
+}
